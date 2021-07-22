@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(151, 243, 247);
+   }
+ 
+ #conteiner {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate (-50% -50%);
+ }
+ 
+ #head {
+     background-color: rgb(133, 58, 23);
+     border-radius: 50%;
+     height: 200px;
+     width: 200px;
+     position: relative;
+     bottom: 200px;
+     right: 100px;
+ }
+ 
+ #ear1 {
+     background-color: rgb(133, 58, 23);
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     height: 90px;
+     width: 100px;
+     transform: rotate(310deg);
+     position: relative;
+     bottom: 30px;
+     right: 50px;
+ }
+ 
+ #ear2 {
+     background-color: rgb(133, 58, 23);
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     height: 90px;
+     width: 100px;
+     position: relative;
+     bottom: 170px;  
+     left: 150px;
+     transform: rotate(50deg);
+ }
+ 
+ #innerear1 {
+     background-color: rgb(226, 151, 116);
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     height: 50px;
+     width: 50px;
+     position: relative;
+     bottom: 100px;  
+     right: 20px;
+     transform: rotate(310deg);
+ }
+ 
+ #innerear2 {
+     background-color: rgb(226, 151, 116);
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     height: 50px;
+     width: 50px;
+     position: relative;
+     bottom: 240px;  
+     left: 170px;
+     transform: rotate(48deg);
+ }
+ 
+ #eye1 {
+     background-color: black;
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     position: relative;
+     bottom: 200px;
+     left: 50px;
+ }
+ 
+ #eye2 {
+     background-color: black;
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     position: relative;
+     bottom: 215px;
+     left: 120px;
+ }
+ 
+ #mounth1 {
+     background-color: black;
+     height: 50px;
+     width: 10px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 190px;  
+     left: 90px;
+     transform: rotate(130deg);
+ }
+ 
+ #mounth2 {
+     background-color: black;
+     height: 50px;
+     width: 10px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 240px;  
+     left: 90px;
+     transform: rotate(230deg);
+ }
+ 
+ 
+ #ribbon-dot {
+     background-image: radial-gradient(#fafafa 20%, transparent 20%);
+     background-color: #f20d0d;
+     background-position: 0 0, 50px 50px;
+     background-size: 22px 22px;
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     position: relative;
+     left: 80px;
+ }
+ 
+ #ribbon-left {
+     background-image: radial-gradient(#fafafa 20%, transparent 20%);
+     background-color: #f20d0d;
+     background-position: 0 0, 50px 50px;
+     background-size: 22px 22px;
+     height: 80px;
+     width: 50px;
+     border-radius: 42% 58% 0% 100% / 66% 100% 0% 34%;
+     transform: rotate(315deg);
+     position: relative;
+     bottom: 70px;
+     left: 10px;
+ }
+ 
+ #ribbon-right {
+     background-image: radial-gradient(#fafafa 20%, transparent 20%);
+     background-color: #f20d0d;
+     background-position: 0 0, 50px 50px;
+     background-size: 22px 22px;
+     height: 80px;
+     width: 50px;
+     border-radius:42% 58% 0% 100% / 66% 100% 0% 34%;
+     transform: rotate(120deg);
+     position: relative;
+     bottom: 150px;
+     left: 140px;
+ }
+ 
+ #body {
+     background-color: rgb(133, 58, 23);
+     border-radius: 50px/ 80px;
+     height: 280px;
+     width: 200px;
+     position: relative;
+     bottom: 210px;  
+     right: 100px;
+ }
+ 
+ #left-arm {
+     background-color: rgb(133, 58, 23);
+     height: 150px;
+     width: 60px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 180px;
+     right: 50px;
+     transform: rotate(60deg);
+ }
+ 
+ #right-arm {
+     background-color: rgb(133, 58, 23);
+     height: 150px;
+     width: 60px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 330px;
+     left: 190px;
+     transform: rotate(120deg);
+ }
+ 
+ #left-leg {
+     background-color: rgb(97, 42, 16);
+     height: 80px;
+     width: 60px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 300px;
+     left: 30px;
+ }
+ 
+ #right-leg {
+     background-color: rgb(97, 42, 16);
+     height: 80px;
+     width: 60px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 380px;
+     left: 110px;
+ }
+ 
+ 
