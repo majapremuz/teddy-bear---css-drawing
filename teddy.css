@@ -38,7 +38,7 @@ body {
      height: 90px;
      width: 100px;
      position: relative;
-     bottom: 170px;  
+     bottom: 120px;  
      left: 150px;
      transform: rotate(50deg);
  }
@@ -50,7 +50,7 @@ body {
      height: 50px;
      width: 50px;
      position: relative;
-     bottom: 100px;  
+     bottom: 185px;  
      right: 20px;
      transform: rotate(310deg);
  }
